@@ -1,12 +1,13 @@
 import React from 'react';
-import { Htag, Button } from '../components';
+import { Htag, Button, P } from '../components';
 
 export default function Home(): JSX.Element {
   return (
     <div>
         <Htag tag="h1">Some Text</Htag>
-        <Button appearance='primary'>Button 1</Button>
-        <Button appearance='ghost'>Button 2</Button>
+        <Button appearance='primary' arrow='down'>Button 1</Button>
+        <Button appearance='ghost' arrow='right'>Button 2</Button>
+        <P textSize='l'>Some Text !</P>
     </div>
   );
 }
